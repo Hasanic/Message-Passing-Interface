@@ -1,6 +1,0 @@
-#!/bin/bash
-#PBS -V
-
-cd /home/hpc0855844/cfd
-
-/opt/mpi/openmpi/current/gnu/bin/mpirun ./karman > output2.txt
